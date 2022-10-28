@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 12.5rem;
+    width: 34.375rem;
+    border-radius: 3px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.relogio div {
+    width: 9.375rem;
+    height: 10.625rem;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(5, 5, 5, 0.9);
+    color: #fff;
+    box-shadow: 5px, 5px, 15px rgba(0, 0, 0, 0.9);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 3.75rem;
+    background-image: linear-gradient(45deg, #82e2ff 20%, #ff11f3 50% ,#7991ff 100%);
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+}
+
+.relogio span.tempo{
+    font-size: 1.1rem ;
+    background-image: linear-gradient(45deg, #b7a7ff 0%, #99ffc7 100%);
+    background-size: 100%;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+}
